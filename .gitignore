@@ -1,0 +1,25 @@
+# Ignore dataset folder
+data/
+
+# Ignore virtual environment
+model/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore large model checkpoints (if any)
+models/*.pth
+models/*.pt
+
+# Ignore logs and temporary files
+*.log
+*.csv
+
+# Ignore Jupyter Notebook checkpoints (if you ever use notebooks)
+.ipynb_checkpoints/
+
+# Ignore system files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
