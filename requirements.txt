@@ -1,0 +1,11 @@
+torch==2.2.0         # PyTorch (CPU version, remove 'cpu' if using CUDA)
+torchvision==0.17.0  # For image transformations and datasets
+torchaudio==2.2.0    # Only needed if working with audio (safe to keep)
+numpy==1.26.4        # For numerical computations
+pandas==2.2.1        # For handling CSVs and data processing
+matplotlib==3.8.3    # For visualizing training results
+scikit-learn==1.4.1  # For performance metrics like accuracy, confusion matrix
+tqdm==4.66.2         # Progress bar for tracking training
+Pillow==10.2.0       # Image loading and manipulation
+opencv-python==4.9.0.80 # For additional image processing (optional)
+
